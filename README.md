@@ -1,5 +1,7 @@
 ## Deputados e suas contas
 
+Ver processos de [recolha](#recolha---javascript) e [tratamento](#tratamento---python) dos dados, sendo que a investigação da presença online foi feita manualmente e poderá conter lacunas. É expectável que alguns dos candidatos que não têm página de wikipedia venham a ter no futuro, para **contribuir** basta sugerir uma edição ao ficheiro [redes.json](manual/redes.json).
+
 <!-- DATA_START -->
 <ul>
 <strong>B.E.</strong>
@@ -2340,7 +2342,7 @@
 6. (há alguns dados duplicados sobre os partidos, mas em quantidade insignificante e que não estará assim no resultado final)
 
 
-##### javascript page scrape
+##### recolha - javascript
 ```js
 let pageData = Array.from(document.querySelectorAll(".territoryName")).map(t=>{
     let territory = t.innerText;
@@ -2356,6 +2358,7 @@ let pageData = Array.from(document.querySelectorAll(".territoryName")).map(t=>{
 console.log(JSON.stringify(pageData));
 ```
 
-### processar e organizar (python)
+### tratamento - python
 
-<img src="https://cdn1.iconfinder.com/data/icons/logos-brands-1/24/logo_brand_brands_logos_bing-512.png" height="48px"/>
+* correr `python organise.py`
+  * requer `pip install pandas`
