@@ -1,0 +1,966 @@
+{
+    "Aveiro": [
+        {
+            "nome": "António Milton Topa Gomes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Bruno Armando Aragão Henriques",
+            "partido": "PS"
+        },
+        {
+            "nome": "Carla Manuela de Sousa Madureira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Carlos Filipe de Andrade Neto Brandão",
+            "partido": "PS"
+        },
+        {
+            "nome": "Cláudia Maria Cruz Santos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Helga Alexandra Freire Correia",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo Daniel Matos Oliveira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Joana Isabel Martins Rigueiro de Sá Pereira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Jorge Manuel de Valsassina Galveias Rodrigues",
+            "partido": "CH"
+        },
+        {
+            "nome": "Maria Paula da Graça Cardoso",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Pedro Nuno de Oliveira Santos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Porfirio Simões de Carvalho e Silva",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ricardo Bastos Sousa",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rui Filipe Vilar Gomes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rui Miguel Rocha da Cruz",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Susana Alexandra Lopes Correia",
+            "partido": "PS"
+        }
+    ],
+    "Beja": [
+        {
+            "nome": "João Manuel Ildefonso Dias",
+            "partido": "PCP-PEV"
+        },
+        {
+            "nome": "Nelson Domingos Brito",
+            "partido": "PS"
+        },
+        {
+            "nome": "Pedro Nuno Raposo Prazeres do Carmo",
+            "partido": "PS"
+        }
+    ],
+    "Braga": [
+        {
+            "nome": "Anabela Pimenta de Lima de Deus Real",
+            "partido": "PS"
+        },
+        {
+            "nome": "André Guimarães Coelho Lima",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "António Filipe Dias Melo Peixoto",
+            "partido": "CH"
+        },
+        {
+            "nome": "Bruno Manuel Pereira Coimbra",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Carlos Eduardo Vasconcelos Fernandes Ribeiro dos Reis",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Carlos Manuel de Brito Cação",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Eduardo Salvador da Costa Oliveira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Firmino José Rodrigues Marques",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo Alexandre Polido Pires",
+            "partido": "PS"
+        },
+        {
+            "nome": "Joaquim Barroso de Almeida Barreto",
+            "partido": "PS"
+        },
+        {
+            "nome": "Jorge Paulo da Silva Oliveira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "José Luís Pereira Carneiro",
+            "partido": "PS"
+        },
+        {
+            "nome": "Luís Miguel de Freitas Marques Carvalho Soares",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Clara Gonçalves Marques Mendes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria Elisabete da Silva Duarte Matos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Gabriela da Cunha Baptista Rodrigues da Fonseca",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Palmira Maciel Fernandes da Costa",
+            "partido": "PS"
+        },
+        {
+            "nome": "Pompeu Miguel Noval da Rocha Martins",
+            "partido": "PS"
+        },
+        {
+            "nome": "Rui Nuno de Oliveira Garcia da Rocha",
+            "partido": "IL"
+        }
+    ],
+    "Bragança": [
+        {
+            "nome": "Adão José Fonseca Silva",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Berta Ferreira Milheiro Nunes",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Alberto Sobrinho Teixeira",
+            "partido": "PS"
+        }
+    ],
+    "Castelo Branco": [
+        {
+            "nome": "Ana Maria Pereira Abrunhosa Trigueiros de Aragão",
+            "partido": "PS"
+        },
+        {
+            "nome": "Cláudia Sofia Farinha André",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "João Paulo Marçal Lopes Catarino",
+            "partido": "PS"
+        },
+        {
+            "nome": "Nuno Jorge Cardona Fazenda de Almeida",
+            "partido": "PS"
+        }
+    ],
+    "Coimbra": [
+        {
+            "nome": "José Carlos Alexandrino Mendes",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Paulo Lima Barbosa de Melo",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria de Fátima Simões Ramos do Vale Ferreira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Marta Alexandra Fartura Braga Temido de Almeida Simões",
+            "partido": "PS"
+        },
+        {
+            "nome": "Mónica Cláudia de Castro Quintela",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Pedro Artur Barreirinhas Sales Guedes Coimbra",
+            "partido": "PS"
+        },
+        {
+            "nome": "Raquel de Fátima Cardoso Ferreira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ricardo Manuel Garrido Lino",
+            "partido": "PS"
+        },
+        {
+            "nome": "Tiago Estevão Martins",
+            "partido": "PS"
+        }
+    ],
+    "Évora": [
+        {
+            "nome": "Luís Manuel Capoulas Santos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Norberto António Lopes Patinho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Sónia Cristina Silva dos Ramos",
+            "partido": "PPD/PSD"
+        }
+    ],
+    "Faro": [
+        {
+            "nome": "Francisco José Pereira Oliveira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Isabel Cristina Andrez Guerreiro Bica",
+            "partido": "PS"
+        },
+        {
+            "nome": "Jamila Bárbara Madeira e Madeira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Jorge Manuel Nascimento Botelho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Luís Filipe Soromenho Gomes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Luís Miguel da Graça Nunes",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ofélia Isabel Andrés da Conceição Ramos",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Pedro Miguel Soares Pinto",
+            "partido": "CH"
+        },
+        {
+            "nome": "Rui Celestino dos Santos Cristina",
+            "partido": "PPD/PSD"
+        }
+    ],
+    "Guarda": [
+        {
+            "nome": "Ana Manuel Jerónimo Lopes Correia Mendes Godinho",
+            "partido": "PS"
+        },
+        {
+            "nome": "António Herminio Carvalho Monteirinho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Gustavo de Sousa Duarte",
+            "partido": "PPD/PSD"
+        }
+    ],
+    "Leiria": [
+        {
+            "nome": "António Lacerda Sales",
+            "partido": "PS"
+        },
+        {
+            "nome": "Catarina Teresa Rola Sarmento e Castro",
+            "partido": "PS"
+        },
+        {
+            "nome": "Eurico Jorge Nogueira Leite Brilhante Dias",
+            "partido": "PS"
+        },
+        {
+            "nome": "Gabriel Sérgio Mithá Ribeiro",
+            "partido": "CH"
+        },
+        {
+            "nome": "Hugo Patrício Martinho de Oliveira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "João Manuel Gomes Marques",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Olga Cristina Fino Silvestre",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Paulo Cardoso Correia da Mota Pinto",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Salvador Portugal Formiga",
+            "partido": "PS"
+        },
+        {
+            "nome": "Sara Maria Belo Velez",
+            "partido": "PS"
+        }
+    ],
+    "Lisboa": [
+        {
+            "nome": "Alexandre Bernardo de Macedo e Lopes Simões",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Alexandre Damasceno da Silva Poço",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Alma Benedetti Croce Rivera",
+            "partido": "PCP-PEV"
+        },
+        {
+            "nome": "Ana Sofia Pedroso Lopes Antunes",
+            "partido": "PS"
+        },
+        {
+            "nome": "André Claro Amaral Ventura",
+            "partido": "CH"
+        },
+        {
+            "nome": "António Luís Santos da Costa",
+            "partido": "PS"
+        },
+        {
+            "nome": "António Manuel Pimenta Proa",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "António Pedro Roque da Visitação Oliveira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Bernardo Alves Martinho Amaral Blanco",
+            "partido": "IL"
+        },
+        {
+            "nome": "Carla Maria Proença de Castro Charters de Azevedo",
+            "partido": "IL"
+        },
+        {
+            "nome": "Duarte Rogério Matos Ventura Pacheco",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Edite de Fátima Santos Marreiro Estrela",
+            "partido": "PS"
+        },
+        {
+            "nome": "Fernando Medina Maciel Almeida Correia",
+            "partido": "PS"
+        },
+        {
+            "nome": "Graça Maria da Fonseca Caetano Gonçalves",
+            "partido": "PS"
+        },
+        {
+            "nome": "Isabel Maria Meireles",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Isabel de Lima Mayer Alves Moreira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Jerónimo Carvalho de Sousa",
+            "partido": "PCP-PEV"
+        },
+        {
+            "nome": "Joana Catarina Barata Reis Lopes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Joaquim José Miranda Sarmento",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "José Duarte Piteira Rica Silvestre Cordeiro",
+            "partido": "PS"
+        },
+        {
+            "nome": "José Maria Lopes Silvano",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "João Fernando Cotrim Figueiredo",
+            "partido": "IL"
+        },
+        {
+            "nome": "João Saldanha de Azevedo Galamba",
+            "partido": "PS"
+        },
+        {
+            "nome": "Lina Maria Cardoso Lopes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Marcos da Cunha e Lorena Perestrello de Vasconcelos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Emília Apolinário Sota Felicíssimo",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria da Luz Gameiro Beja Ferreira Rosinha",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria de Fátima de Jesus Fonseca",
+            "partido": "PS"
+        },
+        {
+            "nome": "Mariana Guimarães Vieira da Silva",
+            "partido": "PS"
+        },
+        {
+            "nome": "Mariana Rodrigues Mortágua",
+            "partido": "B.E."
+        },
+        {
+            "nome": "Miguel Filipe Pardal Cabrita",
+            "partido": "PS"
+        },
+        {
+            "nome": "Miguel de Oliveira Pires da Costa de Matos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Paula Inês Alves de Sousa Real",
+            "partido": "PAN"
+        },
+        {
+            "nome": "Pedro Filipe Gomes Soares",
+            "partido": "B.E."
+        },
+        {
+            "nome": "Pedro Filipe Mota Delgado Simões Alves",
+            "partido": "PS"
+        },
+        {
+            "nome": "Pedro Manuel de Andrade Pessanha Fernandes",
+            "partido": "CH"
+        },
+        {
+            "nome": "Pedro Miguel de Sousa Barrocas Martinho Cegonho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ricardo Augusto Guerreiro Batista Leite",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rita Mafalda Nobre Borges Madeira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Rita Maria Cid Matias",
+            "partido": "CH"
+        },
+        {
+            "nome": "Rodrigo Miguel Dias Saraiva",
+            "partido": "IL"
+        },
+        {
+            "nome": "Romualda Maria da Conceição Martins Nunes Fernandes",
+            "partido": "PS"
+        },
+        {
+            "nome": "Rui Miguel Marcelino Tavares Pereira",
+            "partido": "L"
+        },
+        {
+            "nome": "Rui Paulo Duque Sousa",
+            "partido": "CH"
+        },
+        {
+            "nome": "Susana de Fátima Carvalho Amador",
+            "partido": "PS"
+        },
+        {
+            "nome": "Sérgio Alexandrino Monteiro do Monte",
+            "partido": "PS"
+        },
+        {
+            "nome": "Sérgio Paulo Mendes de Sousa Pinto",
+            "partido": "PS"
+        },
+        {
+            "nome": "Tiago da Mota Veiga Moreira de Sá",
+            "partido": "PPD/PSD"
+        }
+    ],
+    "Portalegre": [
+        {
+            "nome": "Eduardo Miguel Oliveira Alves",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ricardo Miguel Furtado Pinheiro",
+            "partido": "PS"
+        }
+    ],
+    "Porto": [
+        {
+            "nome": "Afonso Gonçalves da Silva Oliveira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Alexandre Tiedke Quintanilha",
+            "partido": "PS"
+        },
+        {
+            "nome": "Ana Patrícia Costa Gilvaz",
+            "partido": "IL"
+        },
+        {
+            "nome": "Ana Paula Mata Bernardo",
+            "partido": "PS"
+        },
+        {
+            "nome": "Andreia Carina Machado da Silva Neto",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Carla Alexandra Magalhães de Sousa",
+            "partido": "PS"
+        },
+        {
+            "nome": "Carlos Alberto Silva Braz",
+            "partido": "PS"
+        },
+        {
+            "nome": "Carlos Manuel Guimarães Oliveira Pinto",
+            "partido": "IL"
+        },
+        {
+            "nome": "Catarina Leite de Faria da Rocha Ferreira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Catarina Soares Martins",
+            "partido": "B.E."
+        },
+        {
+            "nome": "Cristina Maria Mendes da Silva",
+            "partido": "PS"
+        },
+        {
+            "nome": "Diana Jorge Martins Ferreira",
+            "partido": "PCP-PEV"
+        },
+        {
+            "nome": "Diogo Velez Mouta Pacheco de Amorim",
+            "partido": "CH"
+        },
+        {
+            "nome": "Eduardo Nuno Rodrigues e Pinheiro",
+            "partido": "PS"
+        },
+        {
+            "nome": "Firmino Jorge Anjos Pereira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo Miguel Sousa Carneiro",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo Miguel da Costa Carvalho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Isabel Sofia Alves de Andrade",
+            "partido": "PS"
+        },
+        {
+            "nome": "Joana Fernanda Ferreira de Lima",
+            "partido": "PS"
+        },
+        {
+            "nome": "Joaquim José Pinto Moreira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "José Borges de Araújo de Moura Soeiro",
+            "partido": "B.E."
+        },
+        {
+            "nome": "José Carlos Ribeiro Barbosa",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Paulo Moreira Correia",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Pedro Soeiro de Matos Fernandes",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Veloso da Silva Torres",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Germana de Sousa Rocha",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria Isabel Solnado Porto Oneto",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria do Rosário Gamboa Lopes de Carvalho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Miguel dos Santos Rodrigues",
+            "partido": "PS"
+        },
+        {
+            "nome": "Márcia Isabel Duarte Passos Resende",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Patrícia Monte Pinto Ribeiro Faro",
+            "partido": "PS"
+        },
+        {
+            "nome": "Paulo César Rios de Oliveira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Paulo Fernando de Sousa Ramalho",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Paulo Miguel da Silva Santos",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rui Carlos Morais Lage",
+            "partido": "PS"
+        },
+        {
+            "nome": "Rui Fernando da Silva Rio",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rui Pedro Guimarães de Melo Carvalho Lopes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Rui Pedro da Silva Afonso",
+            "partido": "CH"
+        },
+        {
+            "nome": "Sofia Helena Correia Fernandes Sousa Matos",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Tiago Barbosa Ribeiro",
+            "partido": "PS"
+        }
+    ],
+    "Santarém": [
+        {
+            "nome": "Alexandra Ludomila Ribeiro Fernandes Leitão",
+            "partido": "PS"
+        },
+        {
+            "nome": "Hugo Miguel Carvalheiro dos Santos Costa",
+            "partido": "PS"
+        },
+        {
+            "nome": "Isaura Maria Crisóstomo Bernardino Morais",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "João Manuel Moura Rodrigues",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Manuel António dos Santos Afonso",
+            "partido": "PS"
+        },
+        {
+            "nome": "Mara Lúcia Lagriminha Coelho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Inês Leiria Barroso",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria do Céu de Oliveira Antunes",
+            "partido": "PS"
+        },
+        {
+            "nome": "Pedro Saraiva Gonçalves dos Santos Frazão",
+            "partido": "CH"
+        }
+    ],
+    "Setúbal": [
+        {
+            "nome": "Ana Catarina Veiga dos Santos Mendonça Mendes",
+            "partido": "PS"
+        },
+        {
+            "nome": "André Alexandre Pinotes Batista",
+            "partido": "PS"
+        },
+        {
+            "nome": "António Manuel Veiga dos Santos Mendonça Mendes",
+            "partido": "PS"
+        },
+        {
+            "nome": "Bruno Miguel de Oliveira Nunes",
+            "partido": "CH"
+        },
+        {
+            "nome": "Bruno Ramos Dias",
+            "partido": "PCP-PEV"
+        },
+        {
+            "nome": "Clarisse Maria Gaudino Veredas Campos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Eurídice Maria de Sousa Pereira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Fernando Miguel Catarino José",
+            "partido": "PS"
+        },
+        {
+            "nome": "Fernando Mimoso Negrão",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Ivan Costa Gonçalves",
+            "partido": "PS"
+        },
+        {
+            "nome": "Joana Rita Madaleno Cordeiro",
+            "partido": "IL"
+        },
+        {
+            "nome": "Joana Rodrigues Mortágua",
+            "partido": "B.E."
+        },
+        {
+            "nome": "Jorge Filipe Teixeira Seguro Sanches",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Titterniton Gomes Cravinho",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Antónia Moreno Areias Almeida Santos",
+            "partido": "PS"
+        },
+        {
+            "nome": "Maria Fernanda Pardaleiro Velez",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Nuno Miguel Oliveira Carvalho",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Paula Alexandra Sobral Guerreiro Santos Barbosa",
+            "partido": "PCP-PEV"
+        }
+    ],
+    "Viana do Castelo": [
+        {
+            "nome": "Jorge Manuel Salgueiro Mendes",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "José Maria da Cunha Costa",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Carlos Araújo Rêgo Montenegro",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Maria Emília e Sousa Cerqueira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Marina Sola Gonçalves",
+            "partido": "PS"
+        },
+        {
+            "nome": "Tiago Brandão Rodrigues",
+            "partido": "PS"
+        }
+    ],
+    "Vila Real": [
+        {
+            "nome": "Agostinho Gonçalves Alves da Santa",
+            "partido": "PS"
+        },
+        {
+            "nome": "Artur José Montenegro Soveral Freire de Andrade",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Cláudia Patrícia Quitério Bento",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Francisco José Ferreira da Rocha",
+            "partido": "PS"
+        },
+        {
+            "nome": "Fátima Liliana Fontes Correia Pinto",
+            "partido": "PS"
+        }
+    ],
+    "Viseu": [
+        {
+            "nome": "António Guilherme de Jesus Pais de Almeida",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Cristiana Maria da Silva Ferreira",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo Daniel Alves Martins de Carvalho",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Hugo João Ribeiro Maravilha",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "José Rui Alves Duarte da Cruz",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Nuno Ferreira Gonçalves Azevedo",
+            "partido": "PS"
+        },
+        {
+            "nome": "João Paulo de Loureiro Rebelo",
+            "partido": "PS"
+        },
+        {
+            "nome": "Lúcia Fernanda Ferreira Araújo da Silva",
+            "partido": "PS"
+        }
+    ],
+    "Madeira": [
+        {
+            "nome": "Carlos João Pereira",
+            "partido": "PS"
+        },
+        {
+            "nome": "Cláudia Patricia Homem de Gouveia Dantas",
+            "partido": "PPD/PSD.CDS-PP"
+        },
+        {
+            "nome": "José Miguel Mafra lglésias",
+            "partido": "PS"
+        },
+        {
+            "nome": "Marta Luísa de Freitas",
+            "partido": "PS"
+        },
+        {
+            "nome": "Mário Sérgio Quaresma Gonçalves Marques",
+            "partido": "PPD/PSD.CDS-PP"
+        },
+        {
+            "nome": "Sara Martins Marques Santos Madruga da Costa",
+            "partido": "PPD/PSD.CDS-PP"
+        }
+    ],
+    "Açores": [
+        {
+            "nome": "Francisco José Duarte Pimentel",
+            "partido": "PPD/PSD.CDS-PP.PPM"
+        },
+        {
+            "nome": "Francisco Miguel Vital Gomes do Vale César",
+            "partido": "PS"
+        },
+        {
+            "nome": "Isabel Maria Duarte de Almeida Rodrigues",
+            "partido": "PS"
+        },
+        {
+            "nome": "Paulo Alexandre Luís Botelho Moniz",
+            "partido": "PPD/PSD.CDS-PP.PPM"
+        },
+        {
+            "nome": "Sérgio Humberto Rocha de Ávila",
+            "partido": "PS"
+        }
+    ],
+    "Europa": [
+        {
+            "nome": "Maria Ester Vargas de Almeida e Silva",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Paulo Alexandre Carvalho Pisco",
+            "partido": "PS"
+        }
+    ],
+    "Fora da Europa": [
+        {
+            "nome": "António Alberto Maló de Abreu",
+            "partido": "PPD/PSD"
+        },
+        {
+            "nome": "Augusto Ernesto Santos Silva",
+            "partido": "PS"
+        }
+    ]
+}
