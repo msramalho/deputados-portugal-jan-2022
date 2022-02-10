@@ -1,0 +1,45 @@
+[{
+    "territory": "Madeira",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc8b43a2-0e13-4c00-8d29-ba68b15b3901",
+        "name": "PPD/PSD.CDS-PP",
+        "elected": ["Mário Sérgio Quaresma Gonçalves Marques", "Sara Martins Marques Santos Madruga da Costa", "Cláudia Patricia Homem de Gouveia Dantas"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Carlos João Pereira", "José Miguel Mafra lglésias", "Marta Luísa de Freitas"]
+    }]
+}, {
+    "territory": "Açores",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/207090df-b8f7-4452-ab65-8429f41f35ef",
+        "name": "PPD/PSD.CDS-PP.PPM",
+        "elected": ["Paulo Alexandre Luís Botelho Moniz", "Francisco José Duarte Pimentel"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Francisco Miguel Vital Gomes do Vale César", "Sérgio Humberto Rocha de Ávila", "Isabel Maria Duarte de Almeida Rodrigues"]
+    }]
+}, {
+    "territory": "Europa",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Maria Ester Vargas de Almeida e Silva"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Paulo Alexandre Carvalho Pisco"]
+    }]
+}, {
+    "territory": "Fora da Europa",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["António Alberto Maló de Abreu"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Augusto Ernesto Santos Silva"]
+    }]
+}]

@@ -1,0 +1,162 @@
+[{
+    "territory": "Aveiro",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/83bcff51-0793-4036-90c8-c5a736e8d57c",
+        "name": "CH",
+        "elected": ["Jorge Manuel de Valsassina AIveias Rodrigues"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["António Milton Topa Gomes", "Maria Paula da Graça Cardoso", "Ricardo Bastos Sousa", "Helga Alexandra Freire Correia", "Rui Miguel Rocha da Cruz", "Carla Manuela de Sousa Madureira", "Rui Filipe Vilar Gomes"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Pedro Nuno de Oliveira Santos", "Cláudia Maria Cruz Santos", "Carlos Filipe de Andrade Neto Brandão", "Porfirio Simões de Carvalho e Silva", "Susana Alexandra Lopes Correia", "Hugo Daniel Matos Oliveira", "Joana Isabel Martins Rigueiro de Sá Pereira", "Bruno Armando Aragão Henriques"]
+    }]
+}, {
+    "territory": "Beja",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/46636b14-9a4e-426c-a4af-b2d93a512d75",
+        "name": "PCP-PEV",
+        "elected": ["João Manuel Ildefonso Dias"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Pedro Nuno Raposo Prazeres do Carmo", "Nelson Domingos Brito"]
+    }]
+}, {
+    "territory": "Braga",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/83bcff51-0793-4036-90c8-c5a736e8d57c",
+        "name": "CH",
+        "elected": ["António Filipe Dias Melo Peixoto"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/4774201d-7cf7-4810-b106-2a54dfe6d2f4",
+        "name": "IL",
+        "elected": ["Rui Nuno de Oliveira Garcia da Rocha"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["André Guimarães Coelho Lima", "Firmino José Rodrigues Marques", "Maria Clara Gonçalves Marques Mendes", "Carlos Eduardo Vasconcelos Fernandes Ribeiro dos Reis", "Jorge Paulo da Silva Oliveira", "Maria Gabriela da Cunha Baptista Rodrigues da Fonseca", "Bruno Manuel Pereira Coimbra", "Carlos Manuel de Brito Cação"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["José Luís Pereira Carneiro", "Maria Elisabete da Silva Duarte Matos", "Joaquim Barroso de Almeida Barreto", "Hugo Alexandre Polido Pires", "Palmira Maciel Fernandes da Costa", "Luís Miguel de Freitas Marques Carvalho Soares", "Eduardo Salvador da Costa Oliveira", "Anabela Pimenta de Lima de Deus Real", "Pompeu Miguel Noval da Rocha Martins"]
+    }]
+}, {
+    "territory": "Bragança",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Adão José Fonseca Silva"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["João Alberto Sobrinho Teixeira", "Berta Ferreira Milheiro Nunes"]
+    }]
+}, {
+    "territory": "Castelo Branco",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Cláudia Sofia Farinha André"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Ana Maria Pereira Abrunhosa Trigueiros de Aragão", "João Paulo Marçal Lopes Catarino", "Nuno Jorge Cardona Fazenda de Almeida"]
+    }]
+}, {
+    "territory": "Coimbra",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Mónica Cláudia de Castro Quintela", "Maria de Fátima Simões Ramos do Vale Ferreira", "João Paulo Lima Barbosa de Melo"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Marta Alexandra Fartura Braga Temido de Almeida Simões", "Pedro Artur Barreirinhas Sales Guedes Coimbra", "Tiago Estevão Martins", "Raquel de Fátima Cardoso Ferreira", "José Carlos Alexandrino Mendes", "Ricardo Manuel Garrido Lino"]
+    }]
+}, {
+    "territory": "Évora",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Sónia Cristina Silva dos Ramos"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Luís Manuel Capoulas Santos", "Norberto António Lopes Patinho"]
+    }]
+}, {
+    "territory": "Faro",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/83bcff51-0793-4036-90c8-c5a736e8d57c",
+        "name": "CH",
+        "elected": ["Pedro Miguel Soares Pinto"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Luís Filipe Soromenho Gomes", "Rui Celestino dos Santos Cristina", "Ofélia Isabel Andrés da Conceição Ramos"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Jamila Bárbara Madeira e Madeira", "Jorge Manuel Nascimento Botelho", "Luís Miguel da Graça Nunes", "Isabel Cristina Andrez Guerreiro Bica", "Francisco José Pereira Oliveira"]
+    }]
+}, {
+    "territory": "Guarda",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Gustavo de Sousa Duarte"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["Ana Manuel Jerónimo Lopes Correia Mendes Godinho", "António Herminio Carvalho Monteirinho"]
+    }]
+}, {
+    "territory": "Leiria",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/83bcff51-0793-4036-90c8-c5a736e8d57c",
+        "name": "CH",
+        "elected": ["Gabriel Sérgio Mithá Ribeiro"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Paulo Cardoso Correia da Mota Pinto", "Hugo Patrício Martinho de Oliveira", "Olga Cristina Fino Silvestre", "João Manuel Gomes Marques"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/bc063f4e-d082-441a-92f9-22803ef9bb29",
+        "name": "PS",
+        "elected": ["António Lacerda Sales", "Eurico Jorge Nogueira Leite Brilhante Dias", "Catarina Teresa Rola Sarmento e Castro", "Sara Maria Belo Velez", "Salvador Portugal Formiga"]
+    }]
+}, {
+    "territory": "Lisboa",
+    "results": [{
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/151cdcbc-0e6c-4190-8ab1-fd7929d6acac",
+        "name": "B.E.",
+        "elected": ["Mariana Rodrigues Mortágua", "Pedro Filipe Gomes Soares"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/83bcff51-0793-4036-90c8-c5a736e8d57c",
+        "name": "CH",
+        "elected": ["André Claro Amaral Ventura", "Rui Paulo Duque Sousa", "Rita Maria Cid Matias", "Pedro Manuel de Andrade Pessanha Fernandes"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/4774201d-7cf7-4810-b106-2a54dfe6d2f4",
+        "name": "IL",
+        "elected": ["João Fernando Cotrim Figueiredo", "Carla Maria Proença de Castro Charters de Azevedo", "Rodrigo Miguel Dias Saraiva", "Bernardo Alves Martinho Amaral Blanco"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/51afe36f-c1d5-4477-b1bf-9fd118336052",
+        "name": "L",
+        "elected": ["Rui Miguel Marcelino Tavares Pereira"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/266a595e-a61a-4f0b-bcd3-7b324d3f36c0",
+        "name": "PAN",
+        "elected": ["Paula Inês Alves de Sousa Real"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/46636b14-9a4e-426c-a4af-b2d93a512d75",
+        "name": "PCP-PEV",
+        "elected": ["Jerónimo Carvalho de Sousa", "Alma Benedetti Croce Rivera"]
+    }, {
+        "logo": "blob:https://www.legislativas2022.mai.gov.pt/42ba717b-ae74-4684-af38-cf7239482dc5",
+        "name": "PPD/PSD",
+        "elected": ["Ricardo Augusto Guerreiro Batista Leite", "José Maria Lopes Silvano", "Isabel Maria Meireles", "Joaquim José Miranda Sarmento", "Duarte Rogério Matos Ventura Pacheco", "Lina Maria Cardoso Lopes", "Tiago da Mota Veiga Moreira de Sá", "António Pedro Roque da Visitação Oliveira", "Joana Catarina Barata Reis Lopes", "Alexandre Damasceno da Silva Poço", "António Manuel Pimenta Proa", "Maria Emília Apolinário Sota Felicíssimo", "Alexandre Bernardo de Macedo e Lopes Simões"]
+    }]
+}]
