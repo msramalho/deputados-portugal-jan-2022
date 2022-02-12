@@ -1,6 +1,10 @@
 ## Deputados e suas contas
+Este projeto recolhe e estrutra dados sobre os deputados eleitos nas legislativas de 30 de janeiro de 2022. Também indexa todas as páginas de membros atuais e passados do parlamento, recolhidos do parlamento.pt. A informação sobre páginas de wikipedia, facebook, twitter e instagram foram feitas manualmente para complementar os dados. Por parte do processo ter sido manual, erros e lacunas são expectáveis, mesmo com o tempo, e agradeço contributos e correções, basta editar o ficheiro [redes.json](manual/redes.json). 
 
-Ver processos de [recolha](#recolha---javascript) e [tratamento](#tratamento---python) dos dados, sendo que a investigação da presença online foi feita manualmente e poderá conter lacunas. É expectável que alguns dos candidatos que não têm página de wikipedia venham a ter no futuro, para **contribuir** basta sugerir uma edição ao ficheiro [redes.json](manual/redes.json).
+Ver processos de [recolha](#recolha---javascript) e [tratamento](#tratamento---python) dos dados sobre as legislativas de 30 de janeiro de 2022, e [recolha parlamento](#recolha---parlamentopt).
+
+TODO: https://www.facebook.com/profile.php?   id=100013027967769
+TODO: analisar principais temas e tópicos por deuptado baseado nas redes deles...?
 
 <!-- DATA_START -->
 <ul>
@@ -2362,3 +2366,7 @@ console.log(JSON.stringify(pageData));
 
 * correr `python organise.py`
   * requer `pip install pandas`
+### recolha - parlamento.pt
+
+* correr `python parlamento.pt.py`
+  * requer `pip install tqdm beautifulsoup4`
