@@ -164,7 +164,7 @@ Podes fazer o download do <a href="organised/deputados_final.csv">CSV</a> ou do 
     </tr>{content}
 </table>"""
     outf.write(final_html)
-    outf_html.write(final_html)
+    outf_html.write(f"---\nlayout: default\n---\n\n{final_html}")
 
 # optional template to search for their websites
 # save_to_file({n["nome"]: {"wikipedia": "", "facebook": "", "twitter": "", "instagram": ""} for n in names_full}, "redes.json", False)
