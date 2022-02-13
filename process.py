@@ -6,7 +6,10 @@ from os.path import isfile, join, exists
 # CNE has errors...
 known_name_errors = {
     "Jorge Manuel de Valsassina AIveias Rodrigues": "Jorge Manuel de Valsassina Galveias Rodrigues",
-    "Carlos Alberto Silva Braz": "Carlos Alberto Silva Brás"
+    "Carlos Alberto Silva Braz": "Carlos Alberto Silva Brás",
+    "Edite de Fátima Santos Marreiro Estrela": "Edite de Fátima Santos Marreiros Estrela",
+    "Francisco José Pereira Oliveira": "Francisco José Pereira de Oliveira",
+    "Hugo Miguel da Costa Carvalho": "Hugo Miguel Costa Carvalho"
 }
 
 
