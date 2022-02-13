@@ -4,6 +4,7 @@ from os import listdir, mkdir
 from os.path import isfile, join, exists
 
 # CNE has errors...
+TODO: substituir estes no redes.json
 known_name_errors = {
     "Jorge Manuel de Valsassina AIveias Rodrigues": "Jorge Manuel de Valsassina Galveias Rodrigues",
     "Carlos Alberto Silva Braz": "Carlos Alberto Silva Brás",
@@ -12,7 +13,9 @@ known_name_errors = {
     "Hugo Miguel da Costa Carvalho": "Hugo Miguel Costa Carvalho",
     "Joana Fernanda Ferreira de Lima": "Joana Fernanda Ferreira Lima",
     "Jorge Manuel Nascimento Botelho": "Jorge Manuel do Nascimento Botelho",
-    "João Titterniton Gomes Cravinho": "João Titternigton Gomes Cravinho"
+    "João Titterniton Gomes Cravinho": "João Titternigton Gomes Cravinho",
+    "Maria Antónia Moreno Areias Almeida Santos":"Maria Antónia Moreno Areias de Almeida Santos",
+    "Miguel de Oliveira Pires da Costa de Matos": "Miguel de Oliveira Pires da Costa Matos"
 }
 
 
