@@ -5,7 +5,8 @@ from os.path import isfile, join, exists
 
 # CNE has errors...
 known_name_errors = {
-    "Jorge Manuel de Valsassina AIveias Rodrigues": "Jorge Manuel de Valsassina Galveias Rodrigues"
+    "Jorge Manuel de Valsassina AIveias Rodrigues": "Jorge Manuel de Valsassina Galveias Rodrigues",
+    "Carlos Alberto Silva Braz": "Carlos Alberto Silva Brás"
 }
 
 
