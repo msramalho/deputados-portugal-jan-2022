@@ -18,8 +18,8 @@ except: name_to_id = {}
 
 
 START_FROM = max(name_to_id.values()) + 1
-if len(sys.argv) == 2: # START_FROM override
-    START_FROM = int(sys.argv[1])
+if len(sys.argv) >= 2: # START_FROM override
+    START_FROM = int(sys.argv[1]) # needs to be a number
 
 print(f"starting from: {START_FROM}")
 for i in tqdm(range(START_FROM, 10_000)):
