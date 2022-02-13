@@ -1,6 +1,6 @@
 ## Deputados e suas contas
 
-<h3>Ver as informações recolhidas sobre os deputados <a href="Deputados.md">aqui 👀</a></h3>
+<h3>Ver as informações recolhidas sobre os deputados <a href="DEPUTADOS.md">aqui 👀</a></h3>
 
 <h4>Ver também outras organizações dos dados na pasta <a href="organised/">organised</a></h4>
 
