@@ -147,6 +147,8 @@ with open("DEPUTADOS.md", "w") as outf, open("index.html", "w") as outf_html:
     final_html = f"""
 <h1>Deputados legislativas 2022</h1>
 
+<h3><a href="https://github.com/msramalho/deputados-portugal-jan-2022/">HOMEPAGE</a></h3>
+
 Podes fazer o download do <a href="organised/deputados_final.csv">CSV</a> ou do <a href="organised/deputados_final.json">JSON</a>.
 
 <table>
