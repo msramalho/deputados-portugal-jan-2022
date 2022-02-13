@@ -6,9 +6,10 @@ parlamento = "https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID="
 filename = "organised/parlamento.pt.json"
 
 try:
-    with open(filename, "r") as inf:
+    with open(filename) as inf:
         name_to_id = json.loads(inf.read())
 except: name_to_id = {}
+
 
 start_from = max(name_to_id.values()) + 1
 
