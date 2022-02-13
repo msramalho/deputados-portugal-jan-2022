@@ -11,7 +11,8 @@ known_name_errors = {
     "Francisco José Pereira Oliveira": "Francisco José Pereira de Oliveira",
     "Hugo Miguel da Costa Carvalho": "Hugo Miguel Costa Carvalho",
     "Joana Fernanda Ferreira de Lima": "Joana Fernanda Ferreira Lima",
-    "Jorge Manuel Nascimento Botelho": "Jorge Manuel do Nascimento Botelho"
+    "Jorge Manuel Nascimento Botelho": "Jorge Manuel do Nascimento Botelho",
+    "João Titterniton Gomes Cravinho": "João Titternigton Gomes Cravinho"
 }
 
 
