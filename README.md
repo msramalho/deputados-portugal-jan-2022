@@ -1,6 +1,6 @@
 ## Deputados e suas contas
 
-<h3>Ver as informações recolhidas sobre os deputados em <a href="[index.html](https://msramalho.github.io/deputados-portugal-jan-2022/)">HTML</a>, em <a href="DEPUTADOS.md">Markdown</a>, em <a href="organised/deputados_final.csv">CSV</a>, e em <a href="organised/deputados_final.json">JSON</a> </h3>
+<h3>Ver as informações recolhidas sobre os deputados em <a href="https://msramalho.github.io/deputados-portugal-jan-2022/">HTML</a>, em <a href="DEPUTADOS.md">Markdown</a>, em <a href="organised/deputados_final.csv">CSV</a>, e em <a href="organised/deputados_final.json">JSON</a> </h3>
 
 <h4>Ver também outras organizações dos dados na pasta <a href="organised/">organised</a></h4>
 
