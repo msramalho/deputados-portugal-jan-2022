@@ -110,15 +110,7 @@ pd.read_json(ORGANISED + "deputados_final.json").to_csv(ORGANISED + "deputados_f
 print("lista final para CSV")
 
 
-# put the links and data into another .md file
-
-# # updated README.md
-# ds, de = "<!-- DATA_START -->", "<!-- DATA_END -->"
-# with open("README.md", "r") as inf:
-#     readme = inf.read()
-# header = readme.split("<!-- DATA_START -->")[0]
-# footer = readme.split("<!-- DATA_END -->")[-1]
-
+# put the links and data into another .md and html files
 def get_anchor_if_exists(d, key):
     key_to_url = {
         "parlamento.pt": "https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=%s",
@@ -151,11 +143,11 @@ for d in deputados:
 """
 
 
-with open("DEPUTADOS.md", "w") as outf:
-    outf.write(f"""
+with open("DEPUTADOS.md", "w") as outf, open("index.html", "w") as outf_html:
+    final_html = f"""
 <h1>Deputados legislativas 2022</h1>
 
-Podes fazer o download do [CSV](organised/deputados_final.csv) ou do [JSON](organised/deputados_final.json).
+Podes fazer o download do < href="organised/deputados_final.csv">CSV</a> ou do <a href="organised/deputados_final.json">JSON</a>.
 
 <table>
     <tr>
@@ -168,11 +160,11 @@ Podes fazer o download do [CSV](organised/deputados_final.csv) ou do [JSON](orga
         <th>twitter</th>
         <th>instagram</th>
     </tr>{content}
-</table>
-    """)
+</table>"""
+    outf.write(final_html)
+    outf_html.write(final_html)
 
 # optional template to search for their websites
 # save_to_file({n["nome"]: {"wikipedia": "", "facebook": "", "twitter": "", "instagram": ""} for n in names_full}, "redes.json", False)
-
 
 print("FIM")
