@@ -4,6 +4,12 @@
 
 <h4>Ver também outras organizações dos dados na pasta <a href="organised/">organised</a></h4>
 
+
+Eis os totais por partido e por rede social/wikipedia:
+
+![totais](https://user-images.githubusercontent.com/19508417/153775934-db9d868e-c374-403f-b297-73497f9e0153.png)
+
+
 ---
 
 Este projeto recolhe e estrutra dados sobre os deputados eleitos nas legislativas de 30 de janeiro de 2022. Também indexa todas as páginas de membros atuais e passados do parlamento, recolhidos do parlamento.pt. A informação sobre páginas de wikipedia, facebook, twitter e instagram foram feitas manualmente para complementar os dados. Por parte do processo ter sido manual, erros e lacunas são expectáveis, mesmo com o tempo, e agradeço contributos e correções, basta editar o ficheiro [redes.json](manual/redes.json). 
