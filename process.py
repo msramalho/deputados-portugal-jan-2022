@@ -109,6 +109,13 @@ print("lista final para JSON")
 pd.read_json(ORGANISED + "deputados_final.json").to_csv(ORGANISED + "deputados_final.csv", index=None)
 print("lista final para CSV")
 
+  
+# saving xlsx file
+with pd.ExcelWriter(ORGANISED + "deputados_final.xlsx") as ew:
+    pd.read_json(ORGANISED + "deputados_final.json").to_excel(ew, sheet_name="deputados")
+  
+print("lista final para Excel")
+
 
 # put the links and data into another .md and html files
 def get_anchor_if_exists(d, key):
