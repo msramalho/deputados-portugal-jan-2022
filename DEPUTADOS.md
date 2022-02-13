@@ -1,7 +1,7 @@
 
 <h1>Deputados legislativas 2022</h1>
 
-Podes fazer o download do < href="organised/deputados_final.csv">CSV</a> ou do <a href="organised/deputados_final.json">JSON</a>.
+Podes fazer o download do <a href="organised/deputados_final.csv">CSV</a> ou do <a href="organised/deputados_final.json">JSON</a>.
 
 <table>
     <tr>
