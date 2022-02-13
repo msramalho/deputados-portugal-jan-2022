@@ -2,9 +2,9 @@ import json
 from collections import defaultdict
 from os import listdir, mkdir
 from os.path import isfile, join, exists
+import pandas as pd
 
 # CNE has errors...
-TODO: substituir estes no redes.json
 known_name_errors = {
     "Jorge Manuel de Valsassina AIveias Rodrigues": "Jorge Manuel de Valsassina Galveias Rodrigues",
     "Carlos Alberto Silva Braz": "Carlos Alberto Silva Brás",
@@ -14,7 +14,7 @@ known_name_errors = {
     "Joana Fernanda Ferreira de Lima": "Joana Fernanda Ferreira Lima",
     "Jorge Manuel Nascimento Botelho": "Jorge Manuel do Nascimento Botelho",
     "João Titterniton Gomes Cravinho": "João Titternigton Gomes Cravinho",
-    "Maria Antónia Moreno Areias Almeida Santos":"Maria Antónia Moreno Areias de Almeida Santos",
+    "Maria Antónia Moreno Areias Almeida Santos": "Maria Antónia Moreno Areias de Almeida Santos",
     "Miguel de Oliveira Pires da Costa de Matos": "Miguel de Oliveira Pires da Costa Matos"
 }
 
@@ -34,6 +34,7 @@ territories = defaultdict(list)  # elected per territory
 parties = defaultdict(list)  # elected by party
 names = []  # flat list of elected people
 names_full = []  # flat list of elected people with all their data
+names_to_info = {}  # flat list of elected people pointing to all their data
 territories_party = defaultdict(list)  # elected per territory with party
 
 # organize
@@ -49,6 +50,7 @@ for page in pages:
             for name in elected:
                 territories_party[territory].append({"nome": name, "partido": party})
                 names_full.append({"nome": name, "partido": party, "distrito": territory})
+                names_to_info[name] = {"partido": party, "distrito": territory}
 
 
 # save to files
@@ -70,38 +72,107 @@ save_to_file(territories_party, "distritos_partido.json", False)
 
 print("vários formatos exportados para JSON")
 
-import pandas as pd
 pd.read_json(ORGANISED + "nomes_tudo.json").to_csv(ORGANISED + "nomes_tudo.csv", index=None)
 print("também para CSV")
 
-# updated README.md
-ds, de = "<!-- DATA_START -->", "<!-- DATA_END -->"
-with open("README.md", "r") as inf:
-    readme = inf.read()
-header = readme.split("<!-- DATA_START -->")[0]
-footer = readme.split("<!-- DATA_END -->")[-1]
 
+# MERGE redes with parlamento.pt with scraped data
+# name -> redes sociais
+with open("manual/redes.json") as inf:
+    redes_manual = json.load(inf)
+
+# name -> parlamento.pt id
+with open(ORGANISED + "parlamento.pt.json") as inf:
+    name_to_id = json.loads(inf.read())
+
+
+deputados = []
+for name, redes in redes_manual.items():
+    entry = {"parlamento.pt": "", "nome": name, "partido": "", "distrito": ""}
+    if name not in names_to_info:
+        print(f"{name} not found in scraped data data")
+    else: entry.update(names_to_info[name])
+
+    if name not in name_to_id:
+        print(f"{name} not found in parlamento.pt data")
+    else: entry["parlamento.pt"] = name_to_id[name]
+
+    entry.update(redes)
+
+    deputados.append(entry)
+
+
+with open(ORGANISED + "deputados_final.json", "w") as outf:
+    outf.write(json.dumps(deputados, indent=4, sort_keys=False, ensure_ascii=False))
+print("lista final para JSON")
+
+pd.read_json(ORGANISED + "deputados_final.json").to_csv(ORGANISED + "deputados_final.csv", index=None)
+print("lista final para CSV")
+
+
+# put the links and data into another .md file
+
+# # updated README.md
+# ds, de = "<!-- DATA_START -->", "<!-- DATA_END -->"
+# with open("README.md", "r") as inf:
+#     readme = inf.read()
+# header = readme.split("<!-- DATA_START -->")[0]
+# footer = readme.split("<!-- DATA_END -->")[-1]
+
+def get_anchor_if_exists(d, key):
+    key_to_url = {
+        "parlamento.pt": "https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID=%s",
+        "wikipedia": "https://pt.wikipedia.org/wiki/%s",
+        "facebook": "https://www.facebook.com/%s",
+        "facebook_id": "https://www.facebook.com/profile.php?%s",
+        "twitter": "https://twitter.com/%s",
+        "instagram": "https://www.instagram.com/%s",
+    }
+    if not len(str(d[key])): return ""
+    url_key = "facebook_id" if key == "facebook" and d[key][0:3] == "id=" else key
+    return f"<a href='{key_to_url[url_key] % d[key]}'>{d[key]}</a>"
+
+
+# sorting by party, then name
+deputados.sort(key=lambda x: (x["partido"], x["nome"]))
 content = ""
-oldp = ""
-for person in names_full:
-    newp = person["partido"]
-    if person["partido"] != oldp:
-        content += f"<strong>{newp}</strong>"
-        oldp = newp
+for d in deputados:
     content += f"""
-<li>
-    <a href="https://www.google.com/search?q={person['nome']}">google</a> | | | 
-    <a href="https://www.google.com/search?q={person['nome']} wikipedia {person['partido']}">wikipedia</a> | 
-    <a href="https://www.google.com/search?q={person['nome']} facebook {person['partido']}">facebook</a> | 
-    <a href="https://www.google.com/search?q={person['nome']} twitter {person['partido']}">twitter 1</a> | 
-    <a href="https://twitter.com/search?q={person['nome']}&f=user">twitter 2</a> | 
-    <a href="https://www.google.com/search?q={person['nome']} instagram {person['partido']}">instagram</a> | 
-    {person["nome"]}
-</li>\n"""
+<tr>
+    <td>{get_anchor_if_exists(d, "parlamento.pt")}</td>
+    <td>{d['partido']}</td>
+    <td>{d['nome']}</td>
+    <td>{d['distrito']}</td>
+    <td>{get_anchor_if_exists(d, "wikipedia")}</td>
+    <td>{get_anchor_if_exists(d, "facebook")}</td>
+    <td>{get_anchor_if_exists(d, "twitter")}</td>
+    <td>{get_anchor_if_exists(d, "instagram")}</td>
+</tr>
+"""
 
 
-with open("README.md", "w") as outf:
-    outf.write(f"{header}{ds}\n<ul>\n{content}\n</ul>\n{de}\n{footer}")
+with open("DEPUTADOS.md", "w") as outf:
+    outf.write(f"""
+<h1>Deputados legislativas 2022</h1>
+
+Podes fazer o download do [CSV](organised/deputados_final.csv) ou do [JSON](organised/deputados_final.json).
+
+<table>
+    <tr>
+        <th>id parlamento.pt</th>
+        <th>partido</th>
+        <th>nome</th>
+        <th>distrito</th>
+        <th>wikipedia</th>
+        <th>facebook</th>
+        <th>twitter</th>
+        <th>instagram</th>
+    </tr>{content}
+</table>
+    """)
 
 # optional template to search for their websites
-save_to_file({n["nome"]: {"wikipedia": "", "facebook": "", "twitter": "", "instagram": ""} for n in names_full}, "redes.json", False)
+# save_to_file({n["nome"]: {"wikipedia": "", "facebook": "", "twitter": "", "instagram": ""} for n in names_full}, "redes.json", False)
+
+
+print("FIM")

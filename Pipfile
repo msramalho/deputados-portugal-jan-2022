@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pandas = "*"
+tqdm = "*"
+beautifulsoup4 = "*"
+
+[requires]
+python_version = "3.6"
+
+[dev-packages]

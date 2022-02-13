@@ -1,9 +1,15 @@
 import requests, json
 from bs4 import BeautifulSoup
 from tqdm import tqdm
+import sys
 
 parlamento = "https://www.parlamento.pt/DeputadoGP/Paginas/Biografia.aspx?BID="
 filename = "organised/parlamento.pt.json"
+
+def update_file():
+    with open(filename, "w") as outf:
+        outf.write(json.dumps(name_to_id, indent=4, sort_keys=True, ensure_ascii=False))
+        
 
 try:
     with open(filename) as inf:
@@ -11,14 +17,12 @@ try:
 except: name_to_id = {}
 
 
-start_from = max(name_to_id.values()) + 1
+START_FROM = max(name_to_id.values()) + 1
+if len(sys.argv) == 2: # START_FROM override
+    START_FROM = int(sys.argv[1])
 
-def update_file():
-    with open(filename, "w") as outf:
-        outf.write(json.dumps(name_to_id, indent=4, sort_keys=True, ensure_ascii=False))
-
-print(f"starting from: {start_from}")
-for i in tqdm(range(start_from, 10_000)):
+print(f"starting from: {START_FROM}")
+for i in tqdm(range(START_FROM, 10_000)):
     r = requests.get(parlamento + str(i))
     html = BeautifulSoup(r.content, 'html.parser')
     try:
